@@ -1,0 +1,46 @@
+﻿{
+    "main-menu-items" : [
+        {"title": "+Yaroslav", "url": "#user"},
+        {"title": "Пошук", "url": "#search"},
+        {"title": "Зображення", "url": "#image"},
+        {"title": "Карти", "url": "#maps"},
+        {"title": "YouTube", "url": "#youtube"},
+        {"title": "Новини", "url": "#news"},
+        {"title": "Gmail", "url": "#gmail"},
+        {"title": "Диск", "url": "#drive"},
+        {"title": "Календар", "url": "calendar", "selected": true},
+        {"title": "Більше", "url": "#more"}
+    ],
+    "user-name": "Yaroslav Minyaylo",
+    "user-count": "0",
+    "share": "+ Поділитись",
+    "appTitle": "Календар",
+    "buttons": {
+        "goToday": "Сьогодні",
+        "toDate": "День",
+        "toWeek": "Тиждень",
+        "toMonth": "Місяць",
+        "to4days": "4 дні",
+        "todayPlan": "Порядок денний",
+        "more": "Більше",
+        "create": "СТВОРИТИ"
+    },
+    "weekDaysSimple": [
+        {"day": "П"},
+        {"day": "В"},
+        {"day": "С"},
+        {"day": "Ч"},
+        {"day": "П"},
+        {"day": "С"},
+        {"day": "Н"}
+    ],
+    "weekDays": [
+        {"day": "Пн", "4days": true, "date": "3.11", "current": true, "today": true},
+        {"day": "Вт", "4days": true, "date": "4.11"},
+        {"day": "Ср", "4days": true, "date": "5.11"},
+        {"day": "Чт", "4days": true, "date": "6.11"},
+        {"day": "Пт"},
+        {"day": "Сб"},
+        {"day": "Нд"}
+    ]
+}

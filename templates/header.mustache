@@ -1,0 +1,33 @@
+﻿<ul class="main-menu-items">
+    {{#main-menu-items}}
+        <li><a href="{{url}}" {{#selected}}class="selected"{{/selected}}>{{title}}</a></li>
+    {{/main-menu-items}}
+</ul>
+<div class="nav-bar">
+    <a href="#logo" class="logo"></a>
+    <input type="text" value="" autocomplete="off" class="search-input" placeholder="Пошук у Календарі">
+    <button class="search-button"></button>
+    <div class="user-controls">
+        <a href="" class="user-name">{{user-name}}</a>
+        <a href="#" class="button user-count"><span>{{user-count}}</span></a>
+        <a href="#" class="button share"><span>{{share}}</span></a>
+    </div>
+</div>
+<div class="nav-controls">
+    <a class="app-title" href="#">{{appTitle}}</a>
+    <div class="nav-controls-middle">
+        <a class="button go-today disabled" href="#"><span>{{buttons.goToday}}</span></a>
+        <a class="button prev-period no-right-border" href="#"><i class="icon back-icon"></i></a>
+        <a class="button next-period" href="#"><i class="icon forward-icon"></i></a>
+    </div>
+    <div class="nav-controls-right">
+        <a class="button to-date no-right-border" href="#"><span>{{buttons.toDate}}</span></a>
+        <a class="button to-week no-right-border" href="#"><span>{{buttons.toWeek}}</span></a>
+        <a class="button to-month no-right-border selected" href="#"><span>{{buttons.toMonth}}</span></a>
+        <a class="button to4days no-right-border" href="#"><span>{{buttons.to4days}}</span></a>
+        <a class="button todayPlan" href="#"><span>{{buttons.todayPlan}}</span></a>
+
+        <a class="button more no-right-border" href="#"><span>{{buttons.more}}</span><i class="icon select-icon"></i></a>
+        <a class="button settings" href="#"><i class="icon setting-icon"></i></a>
+    </div>
+</div>

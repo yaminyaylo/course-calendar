@@ -1,0 +1,15 @@
+﻿@import "common.less";
+
+aside { position: absolute; top: @headerHeight; bottom: 0; left: 0; width: @asideWidth; }
+
+.cur-month-full { float: left; font-size: 13px; font-weight: normal; margin: 13px 0 3px 16px; text-decoration: none; }
+
+.table-calendar-small {
+  margin-left: 16px; width: 88%; line-height: 1em; border-collapse: collapse; border: 0;
+
+  tr { padding: 0; margin: 0; }
+  th { font-weight: normal; line-height: 1em; padding: 2px; text-align: center; width: 17px; }
+  td { color: #222222; padding: 2px; line-height: 1em; text-align: center; width: 17px; }
+  .cur-month { background: none repeat scroll 0 0 #EEEEEE; }
+  .cur-date, .event { font-weight: bold; }
+}
