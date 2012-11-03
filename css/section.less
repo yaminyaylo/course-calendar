@@ -2,26 +2,26 @@
 
 section {
   position: absolute; top: @headerHeight; bottom: 0; left: @asideWidth;
-  overflow: auto; right: 0; font-size: 12px; margin-right: 17px;
+  overflow: auto; right: 0; font-size: 12px; margin-right: 16px;
 }
 
 /* WEEK style */
 
 .month-grid-head {
-  margin-top: 8px; clear: both;
+  margin-top: 8px; height: 12px;
 
   .item { font-weight: normal; text-align: left; padding: 0 0 0 5px; color: #555555; }
 }
-.month-grid-body { margin-top: 8px; }
+.month-grid-body { margin-top: 8px; position: absolute; top: 20px; left: 0; right: 0; bottom: 0;  }
 .month-grid-week {
-  border-left: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; clear: both;
+  border-bottom: 1px solid #DDDDDD; height: 19.8%;
   &:first-child { border-top: 1px solid #DDDDDD; }
 
   .item {
-    height: 18%; position: relative; border-left: 1px solid #DDDDDD;
+    position: relative; border-left: 1px solid #DDDDDD; height: 100%; padding: 1px 0 0 4px;
 
     &:last-child { border-right: 1px solid #DDDDDD; }
-    &:hover { background: none repeat scroll 0 0 #EAEAEA; border: 1px solid #666666; }
+    /*&:hover { background: none repeat scroll 0 0 #EAEAEA; border: 1px solid #666666; outline: none; }*/
   }
   .weather-icon { position: absolute; right: 5px;  }
   a { text-decoration: none; color: #222222; display: block; overflow: hidden; white-space: nowrap; }
@@ -30,7 +30,7 @@ section {
 
 /* 4DAYS style */
 
-.month-grid-head .item { text-align: center; }
+.month-grid-head.4days .item { text-align: center; }
 .wk-today { background: none repeat scroll 0 0 #F1F1F1; border: 1px solid #DDDDDD; }
 .month-grid-weather {
   .item.span_27 { text-align: right; }

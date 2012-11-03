@@ -17,10 +17,10 @@
     "appTitle": "Календар",
     "buttons": {
         "goToday": "Сьогодні",
-        "toDate": "День",
-        "toWeek": "Тиждень",
-        "toMonth": "Місяць",
-        "to4days": "4 дні",
+        "toDate": "День", "toDateUrl": "today.html",
+        "toWeek": "Тиждень", "toWeekUrl": "week.html",
+        "toMonth": "Місяць", "toMonthUrl": "month.html",
+        "to4days": "4 дні", "to4daysUrl": "4days.html",
         "todayPlan": "Порядок денний",
         "more": "Більше",
         "create": "СТВОРИТИ"
